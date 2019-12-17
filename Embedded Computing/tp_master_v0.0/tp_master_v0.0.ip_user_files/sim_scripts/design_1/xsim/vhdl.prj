@@ -1,0 +1,16 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ip/design_1_axi_dma_0_0/sim/design_1_axi_dma_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_rst_ps7_0_50M_0/sim/design_1_rst_ps7_0_50M_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_dma_1_1/sim/design_1_axi_dma_1_1.vhd" \
+"../../../bd/design_1/ip/design_1_axi_dma_2_2/sim/design_1_axi_dma_2_2.vhd" \
+"../../../bd/design_1/ip/design_1_axi_dma_3_0/sim/design_1_axi_dma_3_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_dma_4_0/sim/design_1_axi_dma_4_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_dma_5_0/sim/design_1_axi_dma_5_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_dma_6_0/sim/design_1_axi_dma_6_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_dma_7_0/sim/design_1_axi_dma_7_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_dma_8_0/sim/design_1_axi_dma_8_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_dma_9_0/sim/design_1_axi_dma_9_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_dma_10_0/sim/design_1_axi_dma_10_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_dma_11_0/sim/design_1_axi_dma_11_0.vhd" \
+
+nosort

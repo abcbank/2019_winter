@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Mon Dec  9 21:05:06 2019
+# Process ID: 7836
+# Current directory: C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/TP_SD2019_prj_v2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13280 C:\Users\MSI\Desktop\School\2019_winter\Embedded Computing\TP_SD2019_prj_v2\TP_SD2019_v2.xpr
+# Log file: C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/TP_SD2019_prj_v2/vivado.log
+# Journal file: C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/TP_SD2019_prj_v2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/TP_SD2019_prj_v2/TP_SD2019_v2.xpr}
+update_compile_order -fileset sources_1

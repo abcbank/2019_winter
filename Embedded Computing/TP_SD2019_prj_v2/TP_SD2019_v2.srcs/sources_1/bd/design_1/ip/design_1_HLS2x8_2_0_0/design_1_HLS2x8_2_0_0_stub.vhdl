@@ -1,0 +1,46 @@
+-- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-- --------------------------------------------------------------------------------
+-- Tool Version: Vivado v.2017.4.1 (win64) Build 2117270 Tue Jan 30 15:32:00 MST 2018
+-- Date        : Tue Dec  3 20:25:52 2019
+-- Host        : user-PC running 64-bit Service Pack 1  (build 7601)
+-- Command     : write_vhdl -force -mode synth_stub -rename_top design_1_HLS2x8_2_0_0 -prefix
+--               design_1_HLS2x8_2_0_0_ design_1_HLS2x8_2_0_0_stub.vhdl
+-- Design      : design_1_HLS2x8_2_0_0
+-- Purpose     : Stub declaration of top-level module interface
+-- Device      : xc7z020clg400-1
+-- --------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity design_1_HLS2x8_2_0_0 is
+  Port ( 
+    ap_clk : in STD_LOGIC;
+    ap_rst_n : in STD_LOGIC;
+    ofmap_TDATA : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    ofmap_TVALID : out STD_LOGIC;
+    ofmap_TREADY : in STD_LOGIC;
+    ofmap_TLAST : out STD_LOGIC;
+    ofmap_TKEEP : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    ifmap_TDATA : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    ifmap_TVALID : in STD_LOGIC;
+    ifmap_TREADY : out STD_LOGIC;
+    ifmap_TLAST : in STD_LOGIC;
+    ifmap_TKEEP : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    fmap_TDATA : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    fmap_TVALID : in STD_LOGIC;
+    fmap_TREADY : out STD_LOGIC;
+    fmap_TLAST : in STD_LOGIC;
+    fmap_TKEEP : in STD_LOGIC_VECTOR ( 3 downto 0 )
+  );
+
+end design_1_HLS2x8_2_0_0;
+
+architecture stub of design_1_HLS2x8_2_0_0 is
+attribute syn_black_box : boolean;
+attribute black_box_pad_pin : string;
+attribute syn_black_box of stub : architecture is true;
+attribute black_box_pad_pin of stub : architecture is "ap_clk,ap_rst_n,ofmap_TDATA[31:0],ofmap_TVALID,ofmap_TREADY,ofmap_TLAST,ofmap_TKEEP[3:0],ifmap_TDATA[31:0],ifmap_TVALID,ifmap_TREADY,ifmap_TLAST,ifmap_TKEEP[3:0],fmap_TDATA[31:0],fmap_TVALID,fmap_TREADY,fmap_TLAST,fmap_TKEEP[3:0]";
+attribute X_CORE_INFO : string;
+attribute X_CORE_INFO of stub : architecture is "HLS2x8_2,Vivado 2017.4.1";
+begin
+end;

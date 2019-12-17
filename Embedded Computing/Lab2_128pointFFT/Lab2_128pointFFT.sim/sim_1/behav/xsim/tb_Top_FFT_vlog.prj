@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab2_128pointFFT.srcs/sources_1/imports/Lab_SD2019_2_asgn/BF.v" \
+"../../../../Lab2_128pointFFT.srcs/sources_1/imports/Lab_SD2019_2_asgn/Counter.v" \
+"../../../../Lab2_128pointFFT.srcs/sources_1/imports/Lab_SD2019_2_asgn/MULT.v" \
+"../../../../Lab2_128pointFFT.srcs/sources_1/imports/Lab_SD2019_2_asgn/Shift_Reg.v" \
+"../../../../Lab2_128pointFFT.srcs/sources_1/imports/Lab_SD2019_2_asgn/Stage.v" \
+"../../../../Lab2_128pointFFT.srcs/sources_1/imports/Lab_SD2019_2_asgn/Stage6.v" \
+"../../../../Lab2_128pointFFT.srcs/sources_1/imports/Lab_SD2019_2_asgn/Top_FFT.v" \
+"../../../../Lab2_128pointFFT.srcs/sim_1/imports/Lab_SD2019_2_asgn/tb_Top_FFT.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,78 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 1140 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 1160 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 1 -y 610 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 3 -y 550 -defaultsOSRD
+preplace inst axi_dma_1 -pg 1 -lvl 3 -y 380 -defaultsOSRD
+preplace inst HLS2x4_3_0 -pg 1 -lvl 4 -y 350 -defaultsOSRD
+preplace inst axi_dma_2 -pg 1 -lvl 5 -y 540 -defaultsOSRD
+preplace inst axi_dma_3 -pg 1 -lvl 3 -y 80 -defaultsOSRD
+preplace inst HLS2x4_2_0 -pg 1 -lvl 4 -y 550 -defaultsOSRD
+preplace inst HLS2x4_4_0 -pg 1 -lvl 4 -y 730 -defaultsOSRD
+preplace inst axi_dma_4 -pg 1 -lvl 3 -y 230 -defaultsOSRD
+preplace inst axi_dma_10 -pg 1 -lvl 3 -y 900 -defaultsOSRD
+preplace inst axi_dma_5 -pg 1 -lvl 5 -y 360 -defaultsOSRD
+preplace inst axi_dma_11 -pg 1 -lvl 5 -y 950 -defaultsOSRD
+preplace inst axi_dma_6 -pg 1 -lvl 3 -y 1220 -defaultsOSRD
+preplace inst axi_dma_7 -pg 1 -lvl 3 -y 720 -defaultsOSRD
+preplace inst axi_dma_8 -pg 1 -lvl 5 -y 730 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 6 -y 640 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -y 880 -defaultsOSRD
+preplace inst axi_dma_9 -pg 1 -lvl 3 -y 1070 -defaultsOSRD
+preplace inst HLS2x4_5_0 -pg 1 -lvl 4 -y 930 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 7 -y 1180 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 7 1 NJ
+preplace netloc ps7_0_axi_periph_M02_AXI 1 2 3 720 630 NJ 630 1500J
+preplace netloc axi_dma_7_M_AXIS_MM2S 1 3 1 1220
+preplace netloc ps7_0_axi_periph_M09_AXI 1 2 1 660
+preplace netloc axi_dma_1_M_AXIS_MM2S 1 3 1 1160
+preplace netloc axi_dma_1_M_AXI_MM2S 1 3 3 1170J 430 1470J 270 N
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 7 400 460 NJ 460 1130J 200 NJ 200 1930J 190 NJ 190 2670
+preplace netloc ps7_0_axi_periph_M07_AXI 1 2 1 670
+preplace netloc axi_dma_5_M_AXI_S2MM 1 5 1 1890
+preplace netloc HLS2x4_3_0_ofmap 1 4 1 1480
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 8 20 470 NJ 470 NJ 470 1120J 170 NJ 170 NJ 170 NJ 170 2680
+preplace netloc axi_dma_9_M_AXIS_MM2S 1 3 1 1260
+preplace netloc axi_dma_4_M_AXIS_MM2S 1 3 1 1230
+preplace netloc ps7_0_axi_periph_M03_AXI 1 2 1 660
+preplace netloc axi_dma_2_M_AXI_S2MM 1 5 1 1880
+preplace netloc HLS2x4_2_0_ofmap 1 4 1 1510
+preplace netloc axi_dma_11_M_AXI_S2MM 1 5 1 1920
+preplace netloc axi_dma_8_M_AXI_S2MM 1 5 1 1890
+preplace netloc ps7_0_axi_periph_M01_AXI 1 2 1 680
+preplace netloc rst_ps7_0_50M_interconnect_aresetn 1 1 5 390 540 670J 640 NJ 640 NJ 640 1940
+preplace netloc axi_dma_6_M_AXIS_MM2S 1 3 1 1250
+preplace netloc HLS2x4_4_0_ofmap 1 4 1 1480
+preplace netloc axi_dma_0_M_AXI_MM2S 1 3 3 1150J 440 1460J 250 N
+preplace netloc processing_system7_0_FIXED_IO 1 7 1 NJ
+preplace netloc axi_dma_3_M_AXIS_MM2S 1 3 1 1250
+preplace netloc ps7_0_axi_periph_M11_AXI 1 2 3 NJ 990 1240J 850 1490
+preplace netloc axi_dma_9_M_AXI_MM2S 1 3 3 1190J 240 NJ 240 1870
+preplace netloc ps7_0_axi_periph_M08_AXI 1 2 3 700J 820 NJ 820 1510
+preplace netloc axi_dma_6_M_AXI_MM2S 1 3 3 1180 210 NJ 210 1910J
+preplace netloc ps7_0_axi_periph_M06_AXI 1 2 1 680
+preplace netloc axi_dma_4_M_AXI_MM2S 1 3 3 1110J 190 NJ 190 1920
+preplace netloc axi_dma_3_M_AXI_MM2S 1 3 3 NJ 50 NJ 50 1940
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 1 5 370 1220 730 980 1200 470 1530 820 1940
+preplace netloc axi_dma_10_M_AXIS_MM2S 1 3 1 1120
+preplace netloc axi_interconnect_0_M00_AXI 1 6 1 2210
+preplace netloc HLS2x4_5_0_ofmap 1 4 1 N
+preplace netloc axi_dma_7_M_AXI_MM2S 1 3 3 1140 230 NJ 230 1900J
+preplace netloc ps7_0_axi_periph_M05_AXI 1 2 3 740 810 NJ 810 1490J
+preplace netloc ps7_0_axi_periph_M04_AXI 1 2 1 710
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 8 30 520 380 520 690 800 1230 460 1520 630 1930 1090 2200 1270 2670
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 3 1 N
+preplace netloc axi_dma_10_M_AXI_MM2S 1 3 3 1210 450 NJ 450 NJ
+preplace netloc ps7_0_axi_periph_M10_AXI 1 2 1 750
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 700
+levelinfo -pg 1 0 200 530 940 1360 1700 2070 2440 2700 -top 0 -bot 1300
+",
+}
+{
+   da_axi4_cnt: "23",
+   da_clkrst_cnt: "7",
+   da_ps7_cnt: "1",
+}

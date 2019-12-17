@@ -1,0 +1,22 @@
+02:37:40 INFO  : Registering command handlers for SDK TCF services
+02:37:41 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\MSI\Desktop\School\2019_winter\Embedded\temp_xsdb_launch_script.tcl
+02:37:44 INFO  : XSCT server has started successfully.
+02:37:45 INFO  : Successfully done setting XSCT server connection channel  
+02:37:45 INFO  : Successfully done setting SDK workspace  
+02:37:45 INFO  : Processing command line option -hwspec C:/Users/MSI/Desktop/School/2019_winter/Embedded.
+02:37:45 ERROR : Error occurred while creating hardware platform Embedded_hw_platform_0 from sysdef
+java.io.FileNotFoundException: C:\Users\MSI\Desktop\School\2019_winter\Embedded (액세스가 거부되었습니다)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.xilinx.sdk.hw.internal.HwProjectCreator.createHwProjectFromZip(HwProjectCreator.java:100)
+	at com.xilinx.sdk.hw.HwProjectUtil.internalCreate(HwProjectUtil.java:266)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:210)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:197)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:171)
+	at com.xilinx.sdk.startup.InitSDK.processHwSpecArgumentTask(InitSDK.java:517)
+	at com.xilinx.sdk.startup.InitSDK.access$8(InitSDK.java:499)
+	at com.xilinx.sdk.startup.InitSDK$12.run(InitSDK.java:450)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+02:37:45 ERROR : Unable to create Hardware Specification Project with specification file: C:/Users/MSI/Desktop/School/2019_winter/Embedded

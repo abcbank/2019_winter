@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Fri Nov 22 09:13:27 2019
+# Process ID: 17676
+# Current directory: C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/lab2_64pointFFT/lab2_64pointFFT.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/lab2_64pointFFT/lab2_64pointFFT.sim/sim_1/behav/xsim/xsim.dir/Top_FFT_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/lab2_64pointFFT/lab2_64pointFFT.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/lab2_64pointFFT/lab2_64pointFFT.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/MSI/Desktop/School/2019_winter/Embedded -notrace
+couldn't read file "C:/Users/MSI/Desktop/School/2019_winter/Embedded": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Fri Nov 22 09:13:27 2019...

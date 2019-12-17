@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Mon Dec  9 21:05:06 2019
+# Process ID: 7836
+# Current directory: C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/TP_SD2019_prj_v2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13280 C:\Users\MSI\Desktop\School\2019_winter\Embedded Computing\TP_SD2019_prj_v2\TP_SD2019_v2.xpr
+# Log file: C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/TP_SD2019_prj_v2/vivado.log
+# Journal file: C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/TP_SD2019_prj_v2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/TP_SD2019_prj_v2/TP_SD2019_v2.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/user/Desktop/HLS_syh/Vivado_prj/TP_SD2019_v2' since last save.
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name ProjectType
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/Users/MSI/Desktop/School/2019_winter/IP/layer2', nor could it be found using path 'C:/Users/user/Desktop/HLS_syh/IP/layer2'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/Users/MSI/Desktop/School/2019_winter/IP/IP_HLS2x8_5', nor could it be found using path 'C:/Users/user/Desktop/HLS_syh/IP/IP_HLS2x8_5'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/Users/MSI/Desktop/School/2019_winter/IP/HLS2x8_4', nor could it be found using path 'C:/Users/user/Desktop/HLS_syh/IP/HLS2x8_4'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/Users/MSI/Desktop/School/2019_winter/IP/IP_HLS2x8_3', nor could it be found using path 'C:/Users/user/Desktop/HLS_syh/IP/IP_HLS2x8_3'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/MSI/Desktop/School/2019_winter/IP/layer2'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/MSI/Desktop/School/2019_winter/IP/IP_HLS2x8_5'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/MSI/Desktop/School/2019_winter/IP/HLS2x8_4'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/MSI/Desktop/School/2019_winter/IP/IP_HLS2x8_3'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.3/data/ip'.
+WARNING: [BD 41-1663] The design 'design_1.bd' cannot be modified due to following reason(s):
+* Project is read-only. Please run 'save_project_as' before making any change to the bd-design. 
+
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_processing_system7_0_0
+design_1_rst_ps7_0_50M_0
+design_1_axi_dma_0_0
+design_1_axi_dma_1_0
+design_1_axi_dma_2_0
+design_1_xbar_0
+design_1_ps7_0_axi_periph_0
+design_1_xbar_1
+design_1_axi_interconnect_0_0
+design_1_HLS2x8_2_0_0
+design_1_auto_pc_1
+design_1_auto_us_2
+design_1_auto_us_1
+design_1_auto_us_0
+design_1_auto_pc_0
+
+WARNING: [Project 1-231] Project 'TP_SD2019_v2.xpr' was created with a future version and may or may not perform reliably with this version of Vivado. It has been opened in read-only mode for the protection of unrecognized data. Use 'File | Save Project As...' if you wish to alter a copy of the project.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 918.930 ; gain = 172.598
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  9 21:07:28 2019...

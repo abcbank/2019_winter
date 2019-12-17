@@ -1,0 +1,13 @@
+0.6
+2017.3
+Oct  4 2017
+20:11:37
+C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/lab2_64pointFFT/lab2_64pointFFT.sim/sim_1/behav/xsim/glbl.v,1507081072,verilog,,,,glbl,,,,,,,,
+C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/lab2_64pointFFT/lab2_64pointFFT.srcs/sim_1/imports/Lab_SD2019_2_prob/tb_Top_FFT.v,1574300141,verilog,,,,tb_Top_FFT,,,,,,,,
+C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/lab2_64pointFFT/lab2_64pointFFT.srcs/sources_1/imports/Lab_SD2019_2_prob/BF.v,1574300141,verilog,,C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/lab2_64pointFFT/lab2_64pointFFT.srcs/sources_1/imports/Lab_SD2019_2_prob/Counter.v,,BF,,,,,,,,
+C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/lab2_64pointFFT/lab2_64pointFFT.srcs/sources_1/imports/Lab_SD2019_2_prob/Counter.v,1574300141,verilog,,C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/lab2_64pointFFT/lab2_64pointFFT.srcs/sources_1/imports/Lab_SD2019_2_prob/MULT.v,,Counter,,,,,,,,
+C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/lab2_64pointFFT/lab2_64pointFFT.srcs/sources_1/imports/Lab_SD2019_2_prob/MULT.v,1574300141,verilog,,C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/lab2_64pointFFT/lab2_64pointFFT.srcs/sources_1/imports/Lab_SD2019_2_prob/Shift_Reg.v,,MULT,,,,,,,,
+C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/lab2_64pointFFT/lab2_64pointFFT.srcs/sources_1/imports/Lab_SD2019_2_prob/Shift_Reg.v,1574300141,verilog,,C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/lab2_64pointFFT/lab2_64pointFFT.srcs/sources_1/imports/Lab_SD2019_2_prob/Stage.v,,Shift_Reg,,,,,,,,
+C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/lab2_64pointFFT/lab2_64pointFFT.srcs/sources_1/imports/Lab_SD2019_2_prob/Stage.v,1574300141,verilog,,C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/lab2_64pointFFT/lab2_64pointFFT.srcs/sources_1/imports/Lab_SD2019_2_prob/Stage6.v,,Stage,,,,,,,,
+C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/lab2_64pointFFT/lab2_64pointFFT.srcs/sources_1/imports/Lab_SD2019_2_prob/Stage6.v,1574409641,verilog,,C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/lab2_64pointFFT/lab2_64pointFFT.srcs/sources_1/imports/Lab_SD2019_2_prob/Top_FFT.v,,Stage6,,,,,,,,
+C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/lab2_64pointFFT/lab2_64pointFFT.srcs/sources_1/imports/Lab_SD2019_2_prob/Top_FFT.v,1574300141,verilog,,C:/Users/MSI/Desktop/School/2019_winter/Embedded Computing/lab2_64pointFFT/lab2_64pointFFT.srcs/sim_1/imports/Lab_SD2019_2_prob/tb_Top_FFT.v,,Top_FFT,,,,,,,,
